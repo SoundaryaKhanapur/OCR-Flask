@@ -12,6 +12,6 @@ Install the required library: sudo apt-get install python-pip
                             
 Install Flask: sudo pip install flask                            
 
-Run the application by running the app.py in ocr_server folder: python app.py
+Run the application by running the app.py: python app.py
 
 To test we can use an app like Postman. Open Postman, select POST method and enter URL: localhost:5000/upload. Under Body enter KEY as file and VALUE as any image and click on send.
