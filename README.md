@@ -1,14 +1,17 @@
 # OCR-Flask
-Setup python environment: sudo apt install -y python3-pip
-                        : sudo apt install tesseract-ocr 
-                        : sudo apt install libtesseract-dev
+Setup python environment: 
+1)sudo apt install -y python3-pip
+2)sudo apt install tesseract-ocr 
+3)sudo apt install libtesseract-dev
                         
-Create a virtualenv and workon it: sudo apt install python3-venv
-                                 : python3 -m venv envname-env
-                                 : source envname-env/bin/activate
+Create a virtualenv and workon it: 
+1)sudo apt install python3-venv
+2)python3 -m venv envname-env
+3)source envname-env/bin/activate
                        
-Install the required library: sudo apt-get install python-pip  
-				                    : pip install numpy Pillow pytesseract datetime datefinder Image
+Install the required library: 
+1)sudo apt-get install python-pip  
+2)pip install numpy Pillow pytesseract datetime datefinder Image
                             
 Install Flask: sudo pip install flask                            
 
