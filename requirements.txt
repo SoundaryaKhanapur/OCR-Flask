@@ -1,0 +1,4 @@
+pytesseract==0.2.9
+Flask==1.1.1
+regex==2019.8.19
+datefinder==0.7.0
